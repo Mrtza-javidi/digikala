@@ -1,0 +1,57 @@
+@font-face {
+    font-family: yekan;
+    src: url("../fonts/yekan.ttf") format("truetype"),
+    url("../fonts/yekan.eot?#iefix") format("embedded-opentype");
+}
+
+@font-face {
+    font-family: traffic;
+    src: url("../fonts/traffic.ttf") format("truetype"),
+    url("../fonts/traffic.eot?#iefix") format("embedded-opentype");
+}
+
+.yekan {
+    font-family: yekan;
+}
+
+.traffic {
+    font-family: traffic;
+}
+
+.fontsm {
+    font-size: 10pt;
+}
+
+.fontmd {
+    font-size: 12pt;
+}
+
+.fontlg {
+    font-size: 12.3pt;
+}
+
+* {
+    direction: rtl;
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none
+}
+
+body {
+    margin: 0;
+    direction: rtl;
+    background: #f7f7f7;
+}
+
+header {
+    background: #fff;
+}
+
+

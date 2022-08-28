@@ -1,0 +1,125 @@
+.top {
+    background: #fafcfc;
+    padding-top: 10px;
+}
+
+.top i {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    background: url("../images/new-user.png") no-repeat;
+}
+
+.down {
+    background: #fff;
+    height: 400px;
+    width: 100%;
+}
+
+.down .right {
+    width: 520px;
+    padding-top: 50px;
+    padding-right: 80px;
+    float: right;
+}
+
+.down .left {
+    width: 600px;
+    float: right;
+    padding-top: 50px;
+}
+
+.down .right label {
+    font-family: yekan;
+    font-size: 9pt;
+    color: #666;
+    float: right;
+    padding-top: 5px;
+}
+
+.down .right input[type="text"], .down .right input[type="password"] {
+    width: 200px;
+    height: 25px;
+    margin-right: 15px;
+    color: #777;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid #ddd;
+    display: block;
+    float: right;
+    border-radius: 4px;
+    outline: none;
+    text-align: left;
+}
+
+.down .right > div {
+    margin-top: 10px;
+    float: right;
+    width: 100%;
+    font-family: yekan;
+    font-size: 10pt;
+    color: #777;
+}
+
+.down .right > div a {
+    color: #009dff;
+    border-bottom: 3px dotted #009dff;
+    letter-spacing: 1px;
+    padding-bottom: 4px;
+}
+
+.down .btn {
+    height: 36px;
+    background: #208de6;
+    display: block;
+    margin: 23px auto;
+    padding: 0 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+    font-family: yekan;
+    font-size: 10pt;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+.down .btn:hover {
+    background: #145990;
+}
+
+.down .left ul {
+    border-right: 1px solid #ccc;
+}
+
+.down .left li {
+    font-family: yekan;
+    font-size: 10pt;
+    color: #666;
+    padding-top: 20px;
+    padding-right: 40px;
+    vertical-align: middle;
+}
+
+.register {
+    background: #e3e5e5;
+    padding: 20px 0;
+    margin: 10px auto;
+    text-align: center;
+    font-family: yekan;
+    font-size: 10pt;
+    color: #666;
+    width: 1200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.register a{
+    color: #4fb543;
+    border-bottom: 3px dotted #4fb543;
+    margin-right: 20px;
+    padding-bottom: 4px;
+}

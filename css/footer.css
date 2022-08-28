@@ -1,0 +1,144 @@
+footer {
+    height: 300px;
+    float: right;
+    width: 100%;
+}
+
+#footer_top {
+    background: #6d717a;
+    height: 45px;
+}
+
+#footer_top .main, #footer_bottom .main {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+#footer_top span {
+    color: #fff;
+    font-family: yekan;
+    font-size: 10pt;
+    line-height: 43px;
+}
+
+#footer_top ul {
+    float: left;
+    height: 100%;
+    line-height: 43px;
+    color: #fff;
+}
+
+#footer_top ul li {
+    height: 100%;
+    padding-right: 90px;
+    float: left;
+    font-family: yekan;
+    font-size: 10pt;
+}
+
+#footer_top .main a:hover {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+}
+
+#footer_top i {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+#footer_bottom {
+    background: #f7f8fa;
+    height: 255px;
+}
+
+#footer_bottom .right {
+    width: 220px;
+    height: 100%;
+    float: right;
+}
+
+#footer_bottom .center {
+    width: 220px;
+    height: 100%;
+    float: right;
+    margin-right: 100px;
+}
+
+#footer_bottom .left {
+    width: 590px;
+    height: 100%;
+    float: left;
+}
+
+#footer_bottom .right ul, #footer_bottom .center ul, #footer_bottom .left ul {
+    padding: 0;
+}
+
+#footer_bottom .right ul li, #footer_bottom .center ul li {
+    margin-top: 12px;
+    font-family: yekan;
+    font-size: 10pt;
+    color: #666;
+}
+
+#footer_bottom .right ul li:nth-child(1), #footer_bottom .center ul li:nth-child(1), #footer_bottom .left ul li:nth-child(1) {
+    margin-top: 35px;
+    font-size: 14pt;
+    letter-spacing: -1px;
+    color: #666;
+}
+
+#footer_bottom .email input {
+    width: 430px;
+    height: 38px;
+    color: #777;
+    padding-right: 10px;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    display: block;
+    border-radius: 4px;
+    outline: none;
+    float: right;
+}
+
+#footer_bottom .email .btn {
+    width: 110px;
+    height: 36px;
+    background: #208de6;
+    display: block;
+    float: right;
+    margin-top: 23px;
+    margin-right: 10px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+    font-family: yekan;
+    font-size: 11pt;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+}
+
+#footer_bottom .social {
+    width: 590px;
+    float: left;
+    margin-top: 37px;
+}
+
+#footer_bottom .social img {
+    float: left;
+    margin-left: 10px;
+}
+
+#footer_bottom .social_button {
+    width: 24px;
+    height: 24px;
+    display: block;
+    float: right;
+    margin-right: 5px;
+    margin-top: 13px;
+    border-radius: 6px;
+}

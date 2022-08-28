@@ -1,0 +1,256 @@
+#header {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+#header_left {
+    float: left;
+    padding-top: 15px;
+}
+
+#header_right {
+    float: right;
+    width: 720px;
+    height: 100px;
+}
+
+#header_right_top {
+    height: 40px;
+}
+
+#login_top {
+    width: 20px;
+    height: 20px;
+    background: url('../images/lock.png');
+    display: block;
+    float: right;
+}
+
+#register_top {
+    width: 20px;
+    height: 20px;
+    background: url('../images/signup.png');
+    display: block;
+    float: right;
+    margin-right: 54px;
+}
+
+#header_right_top a {
+    float: right;
+    margin-right: 10px;
+    color: #ADADAC;
+}
+
+#header_right_bottom {
+    height: 40px;
+    padding-top: 5px;
+}
+
+#basket_top {
+    width: 190px;
+    height: 37px;
+    float: right;
+}
+
+#basket_top_right {
+    width: 45px;
+    height: 37px;
+    background: #55AF5C url('../images/basket.png') no-repeat center;
+    float: right;
+    border-radius: 0 3px 3px 0;
+}
+
+#basket_top_left {
+    width: 95px;
+    height: 37px;
+    background: #44A04C;
+    float: right;
+    padding: 0 25px;
+    border-radius: 3px 0 0 3px;
+}
+
+.basket_top_text {
+    color: #fff;
+    line-height: 35px;
+}
+
+.basket_top_circle {
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    text-align: center;
+    background: #55AF5C;
+    line-height: 27px;
+    margin-top: 6px;
+    margin-left: 4px;
+    color: #fff;
+}
+
+#search_top {
+    width: 530px;
+    height: 37px;
+    float: right;
+    position: relative;
+}
+
+#search_top_right {
+    width: 384px;
+    height: 32px;
+    margin-right: 10px;
+    color: #777;
+    padding-right: 10px;
+    padding-left: 46px;
+    margin-top: 1px;
+    border: 2px solid #ddd;
+    display: block;
+    border-radius: 4px 4px 4px 4px;
+    outline: none;
+}
+
+#search-top-left {
+    width: 40px;
+    height: 38px;
+    background: url('../images/search.png') no-repeat center #ADADAC;
+    margin-top: 1px;
+    border-radius: 4px 0 0 4px;
+    position: absolute;
+    top: 0;
+    left: 66px;
+}
+
+nav {
+    border-top: 1px solid #eee;
+    background: #F4F6F7;
+    width: 100%;
+    height: 40px;
+    box-shadow: 1px 3px 5px #ccc;
+    -webkit-box-shadow: 1px 3px 5px #ccc;
+    -moz-box-shadow: 1px 3px 5px #ccc;
+}
+
+#menu_top {
+    width: 1143px;
+    height: 40px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+}
+
+#menu_top > ul > li {
+    float: right;
+}
+
+#menu_top li {
+    list-style: none;
+}
+
+#menu_top > ul > li > a {
+    display: block;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 38px;
+}
+
+#menu_top > ul {
+    position: relative;
+    padding: 0;
+}
+
+#menu_top > ul > li > ul {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    background: #fff;
+    width: 1200px;
+    box-shadow: 0 2px 3px #ccc;
+    -webkit-box-shadow: 0 2px 3px #ccc;
+    -moz-box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #ddd;
+    border-bottom: none !important;
+    display: none;
+}
+
+#menu_top > ul > li > ul > li {
+    float: right;
+}
+
+#menu_top > ul > li > ul > li > a {
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+}
+
+.menu_top_down {
+    background: url("../images/menu_down.png");
+    display: block;
+    float: left;
+    width: 7px;
+    height: 7px;
+    margin-top: 16px;
+    margin-right: 5px;
+}
+
+.menu_top3 {
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    background: #F9F9F8;
+    right: 0;
+    display: none;
+    z-index: 1;
+}
+
+.menu_top3 > div {
+    width: 299px;
+    height: 300px;
+    float: right;
+    border-left: 1px solid #ddd;
+}
+
+.menu_top3 > div > ul {
+    padding: 10px;
+}
+
+.menu_top3 > div > ul > li {
+    padding: 5px 20px;
+    font-size: 9pt;
+}
+
+.menu_top3 > div:nth-child(2) > ul > li {
+    padding: 2px 20px;
+    font-size: 9pt;
+}
+
+.menu_top3 > div > ul > .title, .menu_top3 > div:nth-child(2) > ul > .title {
+    padding: 0 5px 10px;
+    color: #75C1D8;
+    cursor: text;
+}
+
+.menu_top3 > div a:hover {
+    color: red;
+}
+
+.menu_top3 img {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+
+.menu_active {
+    background: #fff;
+    box-shadow: 0 0 5px #bbb;
+    -webkit-box-shadow: 0 0 5px #bbb;
+    -moz-box-shadow: 0 0 5px #bbb;
+}
+
+.menu_active > a {
+    color: red;
+}
+
